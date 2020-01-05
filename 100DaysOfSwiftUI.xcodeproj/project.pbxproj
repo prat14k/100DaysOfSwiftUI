@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574A923612986007D34DC /* AppDelegate.swift */; };
 		AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574AB23612986007D34DC /* SceneDelegate.swift */; };
-		AB4574AE23612986007D34DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574AD23612986007D34DC /* ContentView.swift */; };
 		AB4574B023612987007D34DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574AF23612987007D34DC /* Assets.xcassets */; };
 		AB4574B323612987007D34DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B223612987007D34DC /* Preview Assets.xcassets */; };
 		AB4574B623612987007D34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B423612987007D34DC /* LaunchScreen.storyboard */; };
+		AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889723C24111006F6BAC /* WeSplitUIView.swift */; };
+		AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889923C24111006F6BAC /* MyListView.swift */; };
+		AB6C88AA23C24111006F6BAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889A23C24111006F6BAC /* User.swift */; };
+		AB6C88AB23C24111006F6BAC /* MyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889B23C24111006F6BAC /* MyListCell.swift */; };
+		AB6C88AC23C24111006F6BAC /* MyUserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889C23C24111006F6BAC /* MyUserDetail.swift */; };
+		AB6C88AD23C24111006F6BAC /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889E23C24111006F6BAC /* PlayButton.swift */; };
+		AB6C88AE23C24111006F6BAC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889F23C24111006F6BAC /* PlayerView.swift */; };
+		AB6C88AF23C24111006F6BAC /* MyButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A123C24111006F6BAC /* MyButtonsView.swift */; };
+		AB6C88B023C24111006F6BAC /* TextFieldUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A223C24111006F6BAC /* TextFieldUIView.swift */; };
+		AB6C88B123C24111006F6BAC /* StateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A323C24111006F6BAC /* StateUIView.swift */; };
+		AB6C88B223C24111006F6BAC /* AlertsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A423C24111006F6BAC /* AlertsUIView.swift */; };
+		AB6C88B323C24111006F6BAC /* PickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A523C24111006F6BAC /* PickerUIView.swift */; };
+		AB6C88B423C24111006F6BAC /* LoopingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A623C24111006F6BAC /* LoopingUIView.swift */; };
+		AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A723C24111006F6BAC /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB4574A623612986007D34DC /* 100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4574A923612986007D34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4574AB23612986007D34DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB4574AD23612986007D34DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB4574AF23612987007D34DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB4574B223612987007D34DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB4574B523612987007D34DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB4574B723612987007D34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6C889723C24111006F6BAC /* WeSplitUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplitUIView.swift; sourceTree = "<group>"; };
+		AB6C889923C24111006F6BAC /* MyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		AB6C889A23C24111006F6BAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB6C889B23C24111006F6BAC /* MyListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListCell.swift; sourceTree = "<group>"; };
+		AB6C889C23C24111006F6BAC /* MyUserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDetail.swift; sourceTree = "<group>"; };
+		AB6C889E23C24111006F6BAC /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		AB6C889F23C24111006F6BAC /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		AB6C88A123C24111006F6BAC /* MyButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonsView.swift; sourceTree = "<group>"; };
+		AB6C88A223C24111006F6BAC /* TextFieldUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldUIView.swift; sourceTree = "<group>"; };
+		AB6C88A323C24111006F6BAC /* StateUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateUIView.swift; sourceTree = "<group>"; };
+		AB6C88A423C24111006F6BAC /* AlertsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsUIView.swift; sourceTree = "<group>"; };
+		AB6C88A523C24111006F6BAC /* PickerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerUIView.swift; sourceTree = "<group>"; };
+		AB6C88A623C24111006F6BAC /* LoopingUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingUIView.swift; sourceTree = "<group>"; };
+		AB6C88A723C24111006F6BAC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +82,10 @@
 		AB4574A823612986007D34DC /* 100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AB6C889623C24111006F6BAC /* AppUI Views */,
+				AB6C88A023C24111006F6BAC /* SwiftUI Views */,
 				AB4574A923612986007D34DC /* AppDelegate.swift */,
 				AB4574AB23612986007D34DC /* SceneDelegate.swift */,
-				AB4574AD23612986007D34DC /* ContentView.swift */,
 				AB4574AF23612987007D34DC /* Assets.xcassets */,
 				AB4574B423612987007D34DC /* LaunchScreen.storyboard */,
 				AB4574B723612987007D34DC /* Info.plist */,
@@ -73,6 +100,50 @@
 				AB4574B223612987007D34DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB6C889623C24111006F6BAC /* AppUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C889723C24111006F6BAC /* WeSplitUIView.swift */,
+				AB6C889823C24111006F6BAC /* User Listing */,
+				AB6C889D23C24111006F6BAC /* Player View */,
+			);
+			path = "AppUI Views";
+			sourceTree = "<group>";
+		};
+		AB6C889823C24111006F6BAC /* User Listing */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C889923C24111006F6BAC /* MyListView.swift */,
+				AB6C889A23C24111006F6BAC /* User.swift */,
+				AB6C889B23C24111006F6BAC /* MyListCell.swift */,
+				AB6C889C23C24111006F6BAC /* MyUserDetail.swift */,
+			);
+			path = "User Listing";
+			sourceTree = "<group>";
+		};
+		AB6C889D23C24111006F6BAC /* Player View */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C889E23C24111006F6BAC /* PlayButton.swift */,
+				AB6C889F23C24111006F6BAC /* PlayerView.swift */,
+			);
+			path = "Player View";
+			sourceTree = "<group>";
+		};
+		AB6C88A023C24111006F6BAC /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C88A123C24111006F6BAC /* MyButtonsView.swift */,
+				AB6C88A223C24111006F6BAC /* TextFieldUIView.swift */,
+				AB6C88A323C24111006F6BAC /* StateUIView.swift */,
+				AB6C88A423C24111006F6BAC /* AlertsUIView.swift */,
+				AB6C88A523C24111006F6BAC /* PickerUIView.swift */,
+				AB6C88A623C24111006F6BAC /* LoopingUIView.swift */,
+				AB6C88A723C24111006F6BAC /* ContentView.swift */,
+			);
+			path = "SwiftUI Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6C88AE23C24111006F6BAC /* PlayerView.swift in Sources */,
+				AB6C88AC23C24111006F6BAC /* MyUserDetail.swift in Sources */,
+				AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */,
+				AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */,
 				AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */,
+				AB6C88AF23C24111006F6BAC /* MyButtonsView.swift in Sources */,
+				AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */,
+				AB6C88AB23C24111006F6BAC /* MyListCell.swift in Sources */,
+				AB6C88AD23C24111006F6BAC /* PlayButton.swift in Sources */,
+				AB6C88B223C24111006F6BAC /* AlertsUIView.swift in Sources */,
+				AB6C88AA23C24111006F6BAC /* User.swift in Sources */,
+				AB6C88B323C24111006F6BAC /* PickerUIView.swift in Sources */,
+				AB6C88B023C24111006F6BAC /* TextFieldUIView.swift in Sources */,
+				AB6C88B123C24111006F6BAC /* StateUIView.swift in Sources */,
 				AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */,
-				AB4574AE23612986007D34DC /* ContentView.swift in Sources */,
+				AB6C88B423C24111006F6BAC /* LoopingUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
