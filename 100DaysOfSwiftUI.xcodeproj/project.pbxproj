@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB18AFD423C467B200BA6E02 /* GuessTheFlagUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */; };
 		AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574A923612986007D34DC /* AppDelegate.swift */; };
 		AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574AB23612986007D34DC /* SceneDelegate.swift */; };
 		AB4574B023612987007D34DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574AF23612987007D34DC /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUIView.swift; sourceTree = "<group>"; };
 		AB4574A623612986007D34DC /* 100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4574A923612986007D34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4574AB23612986007D34DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				AB6C889723C24111006F6BAC /* WeSplitUIView.swift */,
 				AB6C889823C24111006F6BAC /* User Listing */,
 				AB6C889D23C24111006F6BAC /* Player View */,
+				AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */,
 			);
 			path = "AppUI Views";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6C88AE23C24111006F6BAC /* PlayerView.swift in Sources */,
+				AB18AFD423C467B200BA6E02 /* GuessTheFlagUIView.swift in Sources */,
 				AB6C88AC23C24111006F6BAC /* MyUserDetail.swift in Sources */,
 				AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */,
 				AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */,
