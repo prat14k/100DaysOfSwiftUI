@@ -40,6 +40,7 @@
 		ABD4921C2452D6EC00E8A077 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */; };
 		ABD4921E2452DFAE00E8A077 /* BetterRestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */; };
 		ABDE48A12445C4D000F63541 /* CapsuleButtonUIExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */; };
+		ABDF72DB24AB886A00A3F7D8 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
 		ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUIView.swift; sourceTree = "<group>"; };
 		ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonUIExample.swift; sourceTree = "<group>"; };
+		ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				AB3F255D245342580092DABA /* ListUIView.swift */,
 				AB01B77724A789C000BE90C5 /* AnimationUIView.swift */,
 				AB01B77924A78BD800BE90C5 /* PulseAnimationUIView.swift */,
+				ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */,
 			);
 			path = 26;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				AB01B77A24A78BD800BE90C5 /* PulseAnimationUIView.swift in Sources */,
 				AB6C88AF23C24111006F6BAC /* MyButtonsView.swift in Sources */,
 				AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */,
+				ABDF72DB24AB886A00A3F7D8 /* ModalSheetView.swift in Sources */,
 				ABD4921A2452D30D00E8A077 /* StepperUIView.swift in Sources */,
 				AB6C88AB23C24111006F6BAC /* MyListCell.swift in Sources */,
 				AB6C88AD23C24111006F6BAC /* PlayButton.swift in Sources */,
