@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ListUIView: View {
+    let items = ["Anakin", "Luke", "Leia", "Palpatine", "Chewie", "Han"]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(items, id: \.self) {
+                Text($0)
+            }
+            Text("Mandalorian")
+            Text("Yoda")
+        }
     }
 }
 

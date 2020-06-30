@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct AnimationUIView: View {
+    @State var animationCount: CGFloat = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Tap me") {
+            self.animationCount += 1
+        }
+        .foregroundColor(.white)
+        .padding()
+        .background(Color.orange)
+        .clipShape(Capsule())
+        .scaleEffect(1 + (0.2 * animationCount))
+        .animation(.default)
     }
 }
 

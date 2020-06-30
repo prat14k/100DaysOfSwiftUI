@@ -73,8 +73,50 @@ struct Practise6UIView: View {
     }
 }
 
+struct Practise7UIView: View {
+    var body: some View {
+        Text("Call to action")
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.blue)
+            .clipShape(Capsule())
+    }
+}
+
+struct Practise8UIView: View {
+    var body: some View {
+        MyContainerView {
+            Text("I ❤️ SwiftUI")
+        }
+    }
+}
+
+struct MyContainerView<Content: View>: View {
+    let content: Content
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content()
+    }
+
+    var body: some View {
+        ZStack {
+            Color.yellow.edgesIgnoringSafeArea(.all)
+            HStack {
+                Spacer()
+                VStack {
+                    Text("DemoApp")
+                        .foregroundColor(.purple)
+                        .font(.system(size: 15, weight: .bold))
+                        .padding(.trailing, 15)
+                    Spacer()
+                }
+            }
+            content
+        }
+    }
+}
+
 struct PractiseUIView_Previews: PreviewProvider {
     static var previews: some View {
-        Practise6UIView()
+        Practise8UIView()
     }
 }

@@ -9,8 +9,28 @@
 import SwiftUI
 
 struct PulseAnimationUIView: View {
+    @State var animationAmount: Double = 1
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Tap Me") { }
+            .foregroundColor(.white)
+            .padding()
+            .frame(width: 100, height: 100)
+            .background(Color.orange)
+            .clipShape(Circle())
+            .overlay(
+                Circle()
+                    .stroke(Color.orange)
+                    .scaleEffect(CGFloat(animationAmount))
+                    .opacity(2 - animationAmount)
+                    .animation(
+                        Animation.easeIn(duration: 2)
+                                 .repeatForever(autoreverses: false)
+                    )
+            )
+            .onAppear {
+                self.animationAmount = 2
+            }
     }
 }
 
