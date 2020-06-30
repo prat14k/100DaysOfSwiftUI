@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB01B77824A789C000BE90C5 /* AnimationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01B77724A789C000BE90C5 /* AnimationUIView.swift */; };
+		AB01B77A24A78BD800BE90C5 /* PulseAnimationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01B77924A78BD800BE90C5 /* PulseAnimationUIView.swift */; };
 		AB18AFD423C467B200BA6E02 /* GuessTheFlagUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */; };
 		AB21A6942451A845005D6EC8 /* CustomModifierUIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */; };
 		AB21A6962451B158005D6EC8 /* WatermarkUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */; };
+		AB21A6982451C6DE005D6EC8 /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6972451C6DE005D6EC8 /* CustomContainer.swift */; };
+		AB3F255E245342580092DABA /* ListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F255D245342580092DABA /* ListUIView.swift */; };
 		AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574A923612986007D34DC /* AppDelegate.swift */; };
 		AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574AB23612986007D34DC /* SceneDelegate.swift */; };
 		AB4574B023612987007D34DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574AF23612987007D34DC /* Assets.xcassets */; };
 		AB4574B323612987007D34DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B223612987007D34DC /* Preview Assets.xcassets */; };
 		AB4574B623612987007D34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B423612987007D34DC /* LaunchScreen.storyboard */; };
 		AB49216223F966EC00359A11 /* PractiseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49216123F966EC00359A11 /* PractiseUIView.swift */; };
+		AB625690246D4CD700F5929A /* WordScrambleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */; };
 		AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889723C24111006F6BAC /* WeSplitUIView.swift */; };
 		AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889923C24111006F6BAC /* MyListView.swift */; };
 		AB6C88AA23C24111006F6BAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889A23C24111006F6BAC /* User.swift */; };
@@ -30,13 +35,21 @@
 		AB6C88B323C24111006F6BAC /* PickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A523C24111006F6BAC /* PickerUIView.swift */; };
 		AB6C88B423C24111006F6BAC /* LoopingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A623C24111006F6BAC /* LoopingUIView.swift */; };
 		AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A723C24111006F6BAC /* ContentView.swift */; };
+		AB97C91A2492735700C212AC /* ViewBuilderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB97C9192492735700C212AC /* ViewBuilderUIView.swift */; };
+		ABD4921A2452D30D00E8A077 /* StepperUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD492192452D30D00E8A077 /* StepperUIView.swift */; };
+		ABD4921C2452D6EC00E8A077 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */; };
+		ABD4921E2452DFAE00E8A077 /* BetterRestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */; };
 		ABDE48A12445C4D000F63541 /* CapsuleButtonUIExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB01B77724A789C000BE90C5 /* AnimationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUIView.swift; sourceTree = "<group>"; };
+		AB01B77924A78BD800BE90C5 /* PulseAnimationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimationUIView.swift; sourceTree = "<group>"; };
 		AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUIView.swift; sourceTree = "<group>"; };
 		AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierUIVIew.swift; sourceTree = "<group>"; };
 		AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermarkUIView.swift; sourceTree = "<group>"; };
+		AB21A6972451C6DE005D6EC8 /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
+		AB3F255D245342580092DABA /* ListUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIView.swift; sourceTree = "<group>"; };
 		AB4574A623612986007D34DC /* 100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4574A923612986007D34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4574AB23612986007D34DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +58,7 @@
 		AB4574B523612987007D34DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB4574B723612987007D34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49216123F966EC00359A11 /* PractiseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseUIView.swift; sourceTree = "<group>"; };
+		AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUIView.swift; sourceTree = "<group>"; };
 		AB6C889723C24111006F6BAC /* WeSplitUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplitUIView.swift; sourceTree = "<group>"; };
 		AB6C889923C24111006F6BAC /* MyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
 		AB6C889A23C24111006F6BAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -59,6 +73,10 @@
 		AB6C88A523C24111006F6BAC /* PickerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerUIView.swift; sourceTree = "<group>"; };
 		AB6C88A623C24111006F6BAC /* LoopingUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingUIView.swift; sourceTree = "<group>"; };
 		AB6C88A723C24111006F6BAC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB97C9192492735700C212AC /* ViewBuilderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderUIView.swift; sourceTree = "<group>"; };
+		ABD492192452D30D00E8A077 /* StepperUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperUIView.swift; sourceTree = "<group>"; };
+		ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
+		ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUIView.swift; sourceTree = "<group>"; };
 		ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonUIExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +91,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB3F255B245342290092DABA /* T25 */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C88A123C24111006F6BAC /* MyButtonsView.swift */,
+				AB6C88A223C24111006F6BAC /* TextFieldUIView.swift */,
+				AB6C88A323C24111006F6BAC /* StateUIView.swift */,
+				AB6C88A423C24111006F6BAC /* AlertsUIView.swift */,
+				AB6C88A523C24111006F6BAC /* PickerUIView.swift */,
+				AB6C88A623C24111006F6BAC /* LoopingUIView.swift */,
+				AB6C88A723C24111006F6BAC /* ContentView.swift */,
+				AB49216123F966EC00359A11 /* PractiseUIView.swift */,
+				ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */,
+				AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */,
+				AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */,
+				AB21A6972451C6DE005D6EC8 /* CustomContainer.swift */,
+				ABD492192452D30D00E8A077 /* StepperUIView.swift */,
+				ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */,
+			);
+			path = T25;
+			sourceTree = "<group>";
+		};
+		AB3F255C2453424C0092DABA /* 26 */ = {
+			isa = PBXGroup;
+			children = (
+				AB3F255D245342580092DABA /* ListUIView.swift */,
+				AB01B77724A789C000BE90C5 /* AnimationUIView.swift */,
+				AB01B77924A78BD800BE90C5 /* PulseAnimationUIView.swift */,
+			);
+			path = 26;
+			sourceTree = "<group>";
+		};
 		AB45749D23612986007D34DC = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +168,9 @@
 				AB6C889823C24111006F6BAC /* User Listing */,
 				AB6C889D23C24111006F6BAC /* Player View */,
 				AB18AFD323C467B200BA6E02 /* GuessTheFlagUIView.swift */,
+				ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */,
+				AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */,
+				AB97C9192492735700C212AC /* ViewBuilderUIView.swift */,
 			);
 			path = "AppUI Views";
 			sourceTree = "<group>";
@@ -146,17 +198,8 @@
 		AB6C88A023C24111006F6BAC /* SwiftUI Views */ = {
 			isa = PBXGroup;
 			children = (
-				AB6C88A123C24111006F6BAC /* MyButtonsView.swift */,
-				AB6C88A223C24111006F6BAC /* TextFieldUIView.swift */,
-				AB6C88A323C24111006F6BAC /* StateUIView.swift */,
-				AB6C88A423C24111006F6BAC /* AlertsUIView.swift */,
-				AB6C88A523C24111006F6BAC /* PickerUIView.swift */,
-				AB6C88A623C24111006F6BAC /* LoopingUIView.swift */,
-				AB6C88A723C24111006F6BAC /* ContentView.swift */,
-				AB49216123F966EC00359A11 /* PractiseUIView.swift */,
-				ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */,
-				AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */,
-				AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */,
+				AB3F255C2453424C0092DABA /* 26 */,
+				AB3F255B245342290092DABA /* T25 */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -235,15 +278,23 @@
 				AB6C88AE23C24111006F6BAC /* PlayerView.swift in Sources */,
 				AB18AFD423C467B200BA6E02 /* GuessTheFlagUIView.swift in Sources */,
 				AB6C88AC23C24111006F6BAC /* MyUserDetail.swift in Sources */,
+				AB01B77824A789C000BE90C5 /* AnimationUIView.swift in Sources */,
 				AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */,
+				ABD4921E2452DFAE00E8A077 /* BetterRestUIView.swift in Sources */,
+				AB97C91A2492735700C212AC /* ViewBuilderUIView.swift in Sources */,
 				AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */,
 				AB49216223F966EC00359A11 /* PractiseUIView.swift in Sources */,
+				ABD4921C2452D6EC00E8A077 /* DatePickerUIView.swift in Sources */,
+				AB3F255E245342580092DABA /* ListUIView.swift in Sources */,
 				AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */,
 				AB21A6962451B158005D6EC8 /* WatermarkUIView.swift in Sources */,
+				AB01B77A24A78BD800BE90C5 /* PulseAnimationUIView.swift in Sources */,
 				AB6C88AF23C24111006F6BAC /* MyButtonsView.swift in Sources */,
 				AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */,
+				ABD4921A2452D30D00E8A077 /* StepperUIView.swift in Sources */,
 				AB6C88AB23C24111006F6BAC /* MyListCell.swift in Sources */,
 				AB6C88AD23C24111006F6BAC /* PlayButton.swift in Sources */,
+				AB21A6982451C6DE005D6EC8 /* CustomContainer.swift in Sources */,
 				ABDE48A12445C4D000F63541 /* CapsuleButtonUIExample.swift in Sources */,
 				AB21A6942451A845005D6EC8 /* CustomModifierUIVIew.swift in Sources */,
 				AB6C88B223C24111006F6BAC /* AlertsUIView.swift in Sources */,
@@ -252,6 +303,7 @@
 				AB6C88B023C24111006F6BAC /* TextFieldUIView.swift in Sources */,
 				AB6C88B123C24111006F6BAC /* StateUIView.swift in Sources */,
 				AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */,
+				AB625690246D4CD700F5929A /* WordScrambleUIView.swift in Sources */,
 				AB6C88B423C24111006F6BAC /* LoopingUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
