@@ -13,6 +13,9 @@
 		AB21A6942451A845005D6EC8 /* CustomModifierUIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */; };
 		AB21A6962451B158005D6EC8 /* WatermarkUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */; };
 		AB21A6982451C6DE005D6EC8 /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21A6972451C6DE005D6EC8 /* CustomContainer.swift */; };
+		AB286EFF25015CC400963595 /* MoonTripUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB286EFE25015CC400963595 /* MoonTripUIView.swift */; };
+		AB286F0125015D0500963595 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB286F0025015D0500963595 /* CodableExtension.swift */; };
+		AB286F03250160E800963595 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB286F02250160E800963595 /* Model.swift */; };
 		AB3F255E245342580092DABA /* ListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F255D245342580092DABA /* ListUIView.swift */; };
 		AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574A923612986007D34DC /* AppDelegate.swift */; };
 		AB4574AC23612986007D34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4574AB23612986007D34DC /* SceneDelegate.swift */; };
@@ -20,6 +23,8 @@
 		AB4574B323612987007D34DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B223612987007D34DC /* Preview Assets.xcassets */; };
 		AB4574B623612987007D34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4574B423612987007D34DC /* LaunchScreen.storyboard */; };
 		AB49216223F966EC00359A11 /* PractiseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49216123F966EC00359A11 /* PractiseUIView.swift */; };
+		AB5A12F025022BBE00C853E4 /* MissionDetailUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A12EF25022BBE00C853E4 /* MissionDetailUIView.swift */; };
+		AB5A12F2250238A600C853E4 /* CrewMemberListUICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A12F1250238A600C853E4 /* CrewMemberListUICell.swift */; };
 		AB625690246D4CD700F5929A /* WordScrambleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */; };
 		AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889723C24111006F6BAC /* WeSplitUIView.swift */; };
 		AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C889923C24111006F6BAC /* MyListView.swift */; };
@@ -35,12 +40,20 @@
 		AB6C88B323C24111006F6BAC /* PickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A523C24111006F6BAC /* PickerUIView.swift */; };
 		AB6C88B423C24111006F6BAC /* LoopingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A623C24111006F6BAC /* LoopingUIView.swift */; };
 		AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C88A723C24111006F6BAC /* ContentView.swift */; };
+		AB916B3424B8DB6500A76B1D /* iExpenseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB916B3324B8DB6500A76B1D /* iExpenseUIView.swift */; };
+		AB94B93D25025C3900D04C85 /* AstronautUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94B93C25025C3900D04C85 /* AstronautUIView.swift */; };
 		AB97C91A2492735700C212AC /* ViewBuilderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB97C9192492735700C212AC /* ViewBuilderUIView.swift */; };
+		ABBC5C3524FFDFCD00B466C2 /* GeometryUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5C3424FFDFCD00B466C2 /* GeometryUIView.swift */; };
+		ABBC5C3724FFE20100B466C2 /* ScrollUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5C3624FFE20100B466C2 /* ScrollUIView.swift */; };
+		ABBC5C3924FFE6B100B466C2 /* NavigationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5C3824FFE6B100B466C2 /* NavigationUIView.swift */; };
 		ABD4921A2452D30D00E8A077 /* StepperUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD492192452D30D00E8A077 /* StepperUIView.swift */; };
 		ABD4921C2452D6EC00E8A077 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */; };
 		ABD4921E2452DFAE00E8A077 /* BetterRestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */; };
 		ABDE48A12445C4D000F63541 /* CapsuleButtonUIExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */; };
 		ABDF72DB24AB886A00A3F7D8 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */; };
+		ABE181DE24B7301D003F6F31 /* TableDeleteUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE181DD24B7301D003F6F31 /* TableDeleteUIView.swift */; };
+		ABF0402F25013A6F00F498C6 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = ABF0402D25013A6F00F498C6 /* astronauts.json */; };
+		ABF0403025013A6F00F498C6 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = ABF0402E25013A6F00F498C6 /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +63,9 @@
 		AB21A6932451A845005D6EC8 /* CustomModifierUIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierUIVIew.swift; sourceTree = "<group>"; };
 		AB21A6952451B158005D6EC8 /* WatermarkUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermarkUIView.swift; sourceTree = "<group>"; };
 		AB21A6972451C6DE005D6EC8 /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
+		AB286EFE25015CC400963595 /* MoonTripUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonTripUIView.swift; sourceTree = "<group>"; };
+		AB286F0025015D0500963595 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		AB286F02250160E800963595 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AB3F255D245342580092DABA /* ListUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIView.swift; sourceTree = "<group>"; };
 		AB4574A623612986007D34DC /* 100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4574A923612986007D34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +75,8 @@
 		AB4574B523612987007D34DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB4574B723612987007D34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49216123F966EC00359A11 /* PractiseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseUIView.swift; sourceTree = "<group>"; };
+		AB5A12EF25022BBE00C853E4 /* MissionDetailUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailUIView.swift; sourceTree = "<group>"; };
+		AB5A12F1250238A600C853E4 /* CrewMemberListUICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMemberListUICell.swift; sourceTree = "<group>"; };
 		AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUIView.swift; sourceTree = "<group>"; };
 		AB6C889723C24111006F6BAC /* WeSplitUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplitUIView.swift; sourceTree = "<group>"; };
 		AB6C889923C24111006F6BAC /* MyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
@@ -74,12 +92,20 @@
 		AB6C88A523C24111006F6BAC /* PickerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerUIView.swift; sourceTree = "<group>"; };
 		AB6C88A623C24111006F6BAC /* LoopingUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingUIView.swift; sourceTree = "<group>"; };
 		AB6C88A723C24111006F6BAC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB916B3324B8DB6500A76B1D /* iExpenseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUIView.swift; sourceTree = "<group>"; };
+		AB94B93C25025C3900D04C85 /* AstronautUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautUIView.swift; sourceTree = "<group>"; };
 		AB97C9192492735700C212AC /* ViewBuilderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderUIView.swift; sourceTree = "<group>"; };
+		ABBC5C3424FFDFCD00B466C2 /* GeometryUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryUIView.swift; sourceTree = "<group>"; };
+		ABBC5C3624FFE20100B466C2 /* ScrollUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollUIView.swift; sourceTree = "<group>"; };
+		ABBC5C3824FFE6B100B466C2 /* NavigationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUIView.swift; sourceTree = "<group>"; };
 		ABD492192452D30D00E8A077 /* StepperUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperUIView.swift; sourceTree = "<group>"; };
 		ABD4921B2452D6EC00E8A077 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
 		ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUIView.swift; sourceTree = "<group>"; };
 		ABDE48A02445C4D000F63541 /* CapsuleButtonUIExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonUIExample.swift; sourceTree = "<group>"; };
 		ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		ABE181DD24B7301D003F6F31 /* TableDeleteUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDeleteUIView.swift; sourceTree = "<group>"; };
+		ABF0402D25013A6F00F498C6 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		ABF0402E25013A6F00F498C6 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +147,10 @@
 				AB01B77724A789C000BE90C5 /* AnimationUIView.swift */,
 				AB01B77924A78BD800BE90C5 /* PulseAnimationUIView.swift */,
 				ABDF72DA24AB886A00A3F7D8 /* ModalSheetView.swift */,
+				ABE181DD24B7301D003F6F31 /* TableDeleteUIView.swift */,
+				ABBC5C3424FFDFCD00B466C2 /* GeometryUIView.swift */,
+				ABBC5C3624FFE20100B466C2 /* ScrollUIView.swift */,
+				ABBC5C3824FFE6B100B466C2 /* NavigationUIView.swift */,
 			);
 			path = 26;
 			sourceTree = "<group>";
@@ -167,6 +197,7 @@
 		AB6C889623C24111006F6BAC /* AppUI Views */ = {
 			isa = PBXGroup;
 			children = (
+				ABF0403125014F3D00F498C6 /* Moonshot */,
 				AB6C889723C24111006F6BAC /* WeSplitUIView.swift */,
 				AB6C889823C24111006F6BAC /* User Listing */,
 				AB6C889D23C24111006F6BAC /* Player View */,
@@ -174,6 +205,7 @@
 				ABD4921D2452DFAE00E8A077 /* BetterRestUIView.swift */,
 				AB62568F246D4CD700F5929A /* WordScrambleUIView.swift */,
 				AB97C9192492735700C212AC /* ViewBuilderUIView.swift */,
+				AB916B3324B8DB6500A76B1D /* iExpenseUIView.swift */,
 			);
 			path = "AppUI Views";
 			sourceTree = "<group>";
@@ -205,6 +237,21 @@
 				AB3F255B245342290092DABA /* T25 */,
 			);
 			path = "SwiftUI Views";
+			sourceTree = "<group>";
+		};
+		ABF0403125014F3D00F498C6 /* Moonshot */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0402D25013A6F00F498C6 /* astronauts.json */,
+				ABF0402E25013A6F00F498C6 /* missions.json */,
+				AB286EFE25015CC400963595 /* MoonTripUIView.swift */,
+				AB286F0025015D0500963595 /* CodableExtension.swift */,
+				AB286F02250160E800963595 /* Model.swift */,
+				AB5A12EF25022BBE00C853E4 /* MissionDetailUIView.swift */,
+				AB5A12F1250238A600C853E4 /* CrewMemberListUICell.swift */,
+				AB94B93C25025C3900D04C85 /* AstronautUIView.swift */,
+			);
+			path = Moonshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +313,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB4574B623612987007D34DC /* LaunchScreen.storyboard in Resources */,
+				ABF0403025013A6F00F498C6 /* missions.json in Resources */,
 				AB4574B323612987007D34DC /* Preview Assets.xcassets in Resources */,
 				AB4574B023612987007D34DC /* Assets.xcassets in Resources */,
+				ABF0402F25013A6F00F498C6 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +333,29 @@
 				AB01B77824A789C000BE90C5 /* AnimationUIView.swift in Sources */,
 				AB6C88B523C24111006F6BAC /* ContentView.swift in Sources */,
 				ABD4921E2452DFAE00E8A077 /* BetterRestUIView.swift in Sources */,
+				AB286F03250160E800963595 /* Model.swift in Sources */,
+				ABBC5C3924FFE6B100B466C2 /* NavigationUIView.swift in Sources */,
+				AB916B3424B8DB6500A76B1D /* iExpenseUIView.swift in Sources */,
+				ABBC5C3724FFE20100B466C2 /* ScrollUIView.swift in Sources */,
+				AB5A12F025022BBE00C853E4 /* MissionDetailUIView.swift in Sources */,
+				ABE181DE24B7301D003F6F31 /* TableDeleteUIView.swift in Sources */,
+				AB5A12F2250238A600C853E4 /* CrewMemberListUICell.swift in Sources */,
 				AB97C91A2492735700C212AC /* ViewBuilderUIView.swift in Sources */,
 				AB6C88A923C24111006F6BAC /* MyListView.swift in Sources */,
 				AB49216223F966EC00359A11 /* PractiseUIView.swift in Sources */,
 				ABD4921C2452D6EC00E8A077 /* DatePickerUIView.swift in Sources */,
+				ABBC5C3524FFDFCD00B466C2 /* GeometryUIView.swift in Sources */,
 				AB3F255E245342580092DABA /* ListUIView.swift in Sources */,
 				AB4574AA23612986007D34DC /* AppDelegate.swift in Sources */,
 				AB21A6962451B158005D6EC8 /* WatermarkUIView.swift in Sources */,
 				AB01B77A24A78BD800BE90C5 /* PulseAnimationUIView.swift in Sources */,
 				AB6C88AF23C24111006F6BAC /* MyButtonsView.swift in Sources */,
 				AB6C88A823C24111006F6BAC /* WeSplitUIView.swift in Sources */,
+				AB286EFF25015CC400963595 /* MoonTripUIView.swift in Sources */,
 				ABDF72DB24AB886A00A3F7D8 /* ModalSheetView.swift in Sources */,
 				ABD4921A2452D30D00E8A077 /* StepperUIView.swift in Sources */,
+				AB286F0125015D0500963595 /* CodableExtension.swift in Sources */,
+				AB94B93D25025C3900D04C85 /* AstronautUIView.swift in Sources */,
 				AB6C88AB23C24111006F6BAC /* MyListCell.swift in Sources */,
 				AB6C88AD23C24111006F6BAC /* PlayButton.swift in Sources */,
 				AB21A6982451C6DE005D6EC8 /* CustomContainer.swift in Sources */,
